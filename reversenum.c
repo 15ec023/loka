@@ -2,14 +2,14 @@
 #include<math.h>
 void main()
 {
- int n;
- char a[10],b[10];
- scanf("%c",&n);
- n=strlen(a);
- for(int i=n;i>=0;i--)
+ int n,rem,rev;
+ scanf("%d",&n);
+ while(n!=0)
  {
- static x;
- b[x]=a[i];
- printf("%c",b);
+  rem=n%10;
+  rev=rev*10+rem;
+  n=n/10;
  }
+printf("%d",rev);
+}
  
