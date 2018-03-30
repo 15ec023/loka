@@ -20,7 +20,7 @@ void main()
           if(i==j)
            sum=sum+arr[i][j];
           else
-           sum1=sum1+arr[i][j]);
+           sum1=sum1+arr[i][j];
           
       }
   }
