@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int count=0,a;
+    int count=1,a;
     scanf("%d",&a);
-    while(a!=0)
+    while(a>10)
     {
-        a =a/10;
+        a = a/10;
         count=count+1;
     }
  printf("%d",count);
